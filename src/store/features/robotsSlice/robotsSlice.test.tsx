@@ -1,10 +1,10 @@
-import { RobotsStructure, RobotStructure } from "../../types/types";
+import { RobotsStructure, RobotStructure } from "../../../types/types";
 import {
   createRobotActionCreator,
   deleteRobotActionCreator,
   loadRobotsActionCreator,
   robotsReducer,
-} from "./robotsSlice";
+} from "../robotsSlice/robotsSlice";
 
 describe("Given a robots reducer", () => {
   const robot1: RobotStructure = {
